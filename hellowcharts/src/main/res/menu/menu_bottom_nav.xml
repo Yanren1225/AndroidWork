@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/line"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="线形图" />
+    <item
+        android:id="@+id/pie"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="饼图" />
+    <item
+        android:id="@+id/column"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="柱状图" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="主页" />
+        <item
+            android:id="@+id/blog_page"
+            android:icon="@drawable/ic_baseline_web_24"
+            android:title="博客" />
+        <item
+            android:id="@+id/github_page"
+            android:icon="@drawable/ic_github"
+            android:title="GitHub" />
+    </group>
+</menu>

@@ -1,0 +1,12 @@
+include ':hellowcharts'
+include ':test'
+include ':vr'
+include ':烈焰弹幕使测试'
+include ':material'
+include ':notification'
+include ':service'
+include ':imageasync'
+include ':getimage'
+include ':thread'
+include ':app'
+rootProject.name = "AndroidWork"
