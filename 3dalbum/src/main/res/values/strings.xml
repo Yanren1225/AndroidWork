@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">3DAlbum</string>
+    <string name="image_1">1</string>
+    <string name="image_2">2</string>
+    <string name="image_3">3</string>
+    <string name="image_4">4</string>
+    <string name="image_5">5</string>
+</resources>

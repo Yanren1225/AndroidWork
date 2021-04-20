@@ -58,7 +58,7 @@ class ColumnChartFragment : BaseFragment<FragmentColumnChartBinding, ChartViewMo
         }
     }
 
-    override fun loadDate() {
+    override fun loadData() {
         years.forEachIndexed { index, s ->
             subColumnValues = ArrayList()
             subColumnValues.apply {

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ren.imyan.a3dalbum_library.ui.FeatureCoverFlow
+            android:id="@+id/image_cover_flow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:coverHeight="180dp"
+            app:coverWidth="120dp"
+            app:maxScaleFactor="1.5"
+            app:reflectionGap="0dp"
+            app:rotationThreshold="0.5"
+            app:spacing="0.6" />
+
+        <TextSwitcher
+            android:id="@+id/textSwitcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/full_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_1"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+</layout>

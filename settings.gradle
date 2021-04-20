@@ -1,3 +1,5 @@
+include ':3dalbum-library'
+include ':3dalbum'
 include ':hellowcharts'
 include ':test'
 include ':vr'
@@ -8,5 +10,4 @@ include ':service'
 include ':imageasync'
 include ':getimage'
 include ':thread'
-include ':app'
 rootProject.name = "AndroidWork"

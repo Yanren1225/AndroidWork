@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion target_sdk
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "ren.imyan.hellowcharts"
         minSdkVersion 19
-        targetSdkVersion 30
+        targetSdkVersion target_sdk
         versionCode 1
         versionName "1.0"
 
@@ -46,7 +46,7 @@ dependencies {
     implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation 'ren.imyan.endureblazex.base:fragment:1.0'
+    implementation 'ren.imyan.endureblazex.base:fragment:1.1'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

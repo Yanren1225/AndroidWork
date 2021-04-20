@@ -60,7 +60,7 @@ class LineChartFragment : BaseFragment<FragmentLineChartBinding, ChartViewModel>
         }
     }
 
-    override fun loadDate() {
+    override fun loadData() {
         val lines = ArrayList<Line>().apply {
             add(Line().apply {
                 color = Color.parseColor("#33b5e5")

@@ -4,13 +4,13 @@ plugins {
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion target_sdk
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "ren.imyan.vr"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion target_sdk
         versionCode 1
         versionName "1.0"
 

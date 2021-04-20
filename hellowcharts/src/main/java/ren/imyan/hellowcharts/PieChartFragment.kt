@@ -58,7 +58,7 @@ class PieChartFragment : BaseFragment<FragmentPieChartBinding, ChartViewModel>()
         }
     }
 
-    override fun loadDate() {
+    override fun loadData() {
         val data = PieChartData().apply {
             setHasLabels(true)
             setHasLabelsOnlyForSelected(false)

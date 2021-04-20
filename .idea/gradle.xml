@@ -11,7 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/3dalbum" />
+            <option value="$PROJECT_DIR$/3dalbum-library" />
             <option value="$PROJECT_DIR$/getimage" />
             <option value="$PROJECT_DIR$/hellowcharts" />
             <option value="$PROJECT_DIR$/imageasync" />
