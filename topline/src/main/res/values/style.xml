@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.TopLine.Toolbar" parent="Widget.MaterialComponents.AppBarLayout.Primary">
+        <item name="android:background">?attr/colorOnPrimary</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    android:layout_gravity="bottom"
+    android:textStyle="bold"
+    app:labelVisibilityMode="labeled"
+
+    <style name="Widget.TopLine.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textStyle">bold</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <style name="Widget.TopLine.Card.Outline" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginStart">@dimen/card_margin_horizontal_big_activity</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_vertical_big_activity</item>
+        <item name="android:layout_marginEnd">@dimen/card_margin_horizontal_big_activity</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_vertical_big_activity</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/stroke_color</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/mtrl_btn_text_btn_ripple_color</item>
+    </style>
+
+</resources>

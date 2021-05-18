@@ -45,18 +45,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-//        hideBar()
         initView()
     }
 
     private fun initView() {
-        binding.textSwitcher.setFactory {
-            val itemTitleBinding = ItemTitleBinding.inflate(layoutInflater)
-            itemTitleBinding.root
-        }
         binding.textSwitcher.apply {
             inAnimation = inAnim
-            outAnimation = outAnim
+            setFactory {
+                val itemTitleBinding = ItemTitleBinding.inflate(layoutInflater)
+                itemTitleBinding.root
+            }
         }
         binding.imageCoverFlow.apply {
             adapter = AlbumAdapter(data)

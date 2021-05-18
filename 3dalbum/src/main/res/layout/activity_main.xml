@@ -20,7 +20,7 @@
             app:coverWidth="120dp"
             app:maxScaleFactor="1.5"
             app:reflectionGap="0dp"
-            app:rotationThreshold="0.5"
+            app:rotationThreshold="0.9"
             app:spacing="0.6" />
 
         <TextSwitcher
